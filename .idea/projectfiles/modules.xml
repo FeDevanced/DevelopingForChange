@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/DevelopingForChange.iml" filepath="$PROJECT_DIR$/.idea/DevelopingForChange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/projectfiles/DevelopingForChange.iml" filepath="$PROJECT_DIR$/.idea/projectfiles/DevelopingForChange.iml" />
     </modules>
   </component>
 </project>
