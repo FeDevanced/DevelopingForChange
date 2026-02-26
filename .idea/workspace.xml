@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78077432-ae86-4c17-b52b-54148273d25b" name="Changes" comment="added base files">
-      <change beforePath="$PROJECT_DIR$/.idea/media/hero-video.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/media/hero-video.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/media/tgrhf1_team_-_logo_rgb_full_vert_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/tgrhf1_team_-_logo_rgb_full_vert_0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/projectfiles/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/projectfiles/DevelopingForChange.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DevelopingForChange.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/projectfiles/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/projectfiles/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/projectfiles/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="78077432-ae86-4c17-b52b-54148273d25b" name="Changes" comment="added base files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
