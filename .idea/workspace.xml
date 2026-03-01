@@ -4,7 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78077432-ae86-4c17-b52b-54148273d25b" name="Changes" comment="added base files" />
+    <list default="true" id="78077432-ae86-4c17-b52b-54148273d25b" name="Changes" comment="added base files">
+      <change afterPath="$PROJECT_DIR$/ayao-komatsu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/andrea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/ayao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/esteban.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/jack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/ollie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/sponsors/Haas Automation@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/sponsors/alpinestars-png_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/sponsors/castore-logo_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/sponsors/cs-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/sponsors/fix-network_logo_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/sponsors/haas-tooling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/sponsors/ic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/sponsors/infobip-logo_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/sponsors/mgm-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/sponsors/mphasis_logo_black_1080px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/sponsors/new_era_logo_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/sponsors/pirelli.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/sponsors/playngo_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/sponsors/png_colour.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/sponsors/rukus-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/sponsors/schuberth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/sponsors/travismathew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/sponsors/ucm_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/sponsors/vellamo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/sponsors/website_logos_orion180_black_hoz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/sponsors/website_taittinger_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/sponsors/zoomex_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/vf26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vf-26.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -29,29 +63,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.ayao-komatsu.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.vf-26.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/joshclark/Documents/GitHub/DevelopingForChange",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/media/sponsors" />
+      <recent name="$PROJECT_DIR$/media" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/.idea/projectfiles" />
       <recent name="$PROJECT_DIR$/.idea/styles" />
@@ -75,6 +118,7 @@
       <updated>1771598993933</updated>
       <workItem from="1771598995318" duration="75000" />
       <workItem from="1771599117542" duration="762000" />
+      <workItem from="1772108967702" duration="17184000" />
     </task>
     <task id="LOCAL-00001" summary="added base files">
       <option name="closed" value="true" />

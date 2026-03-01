@@ -1,124 +1,161 @@
 :root {
-    /* --- Backgrounds --- */
-    --bs-body-bg:               #000000;  /* Main page background */
-    --bs-secondary-bg:          #333333;  /* Secondary/muted background (cards, inputs, etc.) */
+    /* --- Background --- */
+    --bs-body-bg: #000000;  /* Main page background */
+    --bs-secondary-bg: #333333;
+    --navbar-footer-bg: #000000;
 
-    /* --- Text --- */
-    --bs-body-color:            #ffffff;  /* Default body text */
+    /* --- Text Styling --- */
+    --bs-body-color: #ffffff;  /* Default body text */
     --bs-secondary-color: rgba(255, 255, 255, 0.7);  /* Muted/secondary text */
-    --bs-heading-color:         #ffffff;  /* h1–h6 headings */
-    --bs-link-color:            #dd3333;  /* Hyperlinks */
-    --bs-link-hover-color:      #ffffff;  /* Hyperlink hover */
+    --bs-heading-color: #ffffff;  /* h1–h6 headings */
+        --bs-link-color: #dd3333;  /* Hyperlinks */
+        --bs-link-hover-color: #ffffff;  /* Hyperlink hover */
+    --card-link-color: #dd3333;  /* Card link colour */
+    --card-link-hover-color: #000000;  /* Card link hover colour */
+    --card-link-font-weight: 500;      /* Card link font weight */
+    --card-link-text-decoration: underline;   /* Card link underline */
 
     /* --- Navbar --- */
-    --navbar-bg:                #000000;  /* Navbar background colour */
-    --navbar-link-color:        #ffffff;  /* Navbar link text */
-    --navbar-link-hover-color:  #dd3333;  /* Navbar link hover */
-    --navbar-brand-color:       #ffffff;  /* Navbar brand text */
+    --navbar-height: 80px;     /* Navbar height (match logo height) */
+    --navbar-bg: #000000;  /* Navbar background colour */
+    --navbar-link-color: #ffffff;  /* Navbar link text */
+    --navbar-link-hover-color: #dd3333;  /* Navbar link hover */
+    --navbar-brand-color: #ffffff;  /* Navbar brand text */
 
     /* --- Buttons --- */
     --btn-primary-bg: rgba(0, 0, 0, 0);  /* Primary button background */
     --btn-primary-border: #ffffff;  /* Primary button border */
-    --btn-primary-color:        #ffffff;  /* Primary button text */
+    --btn-primary-color: #ffffff;  /* Primary button text */
     --btn-primary-hover-bg: #df0000;  /* Primary button hover background */
-    --btn-secondary-bg: #606060;  /* Secondary button background */
-    --btn-secondary-border: #ffffff;  /* Secondary button border */
-    --btn-secondary-color:      #ffffff;  /* Secondary button text */
-    --btn-secondary-hover-bg: #9f9f9f;  /* Secondary button hover background */
-    --btn-border-radius:        0rem;                    /* Button corner radius */
-    --btn-padding-y:            16px;               /* Button vertical padding */
-    --btn-padding-x:            24px;                /* Button horizontal padding */
-    --btn-font-size:            18px;                   /* Button font size */
+        --btn-secondary-bg: #606060;  /* Secondary button background */
+        --btn-secondary-border: #ffffff;  /* Secondary button border */
+        --btn-secondary-color: #ffffff;  /* Secondary button text */
+        --btn-secondary-hover-bg: #9f9f9f;  /* Secondary button hover background */
+    --btn-border-radius: 0rem;                    /* Button corner radius */
+    --btn-padding-y: 16px;               /* Button vertical padding */
+    --btn-padding-x: 24px;                /* Button horizontal padding */
+    --btn-font-size: 18px;                   /* Button font size */
     --btn-primary-font-family:  'Fira Sans', sans-serif; /* Button font family */
 
     /* --- Navbar Gradient --- */
-    --navbar-gradient-start:    rgba(0, 0, 0, 1);       /* Gradient top colour */
-    --navbar-gradient-end:      rgba(0, 0, 0, 0);       /* Gradient bottom colour */
+    --navbar-gradient-start: rgba(0, 0, 0, 1);       /* Gradient top colour */
+    --navbar-gradient-end: rgba(0, 0, 0, 0);       /* Gradient bottom colour */
 
     /* --- Navbar Links --- */
-    --navbar-ul-gap:            16px;                   /* Gap between nav items */
-    --navbar-link-font-family:  'Fira Sans', sans-serif; /* Nav link font */
-    --navbar-link-font-size:    16px;                   /* Nav link font size */
-    --navbar-link-font-weight:  500;                    /* Nav link font weight */
-    --navbar-link-padding-y:    48px;                 /* Nav link vertical padding */
-    --navbar-link-padding-x:    0.75rem;                /* Nav link horizontal padding */
+    --navbar-ul-gap: 16px;                   /* Gap between nav items */
+    --navbar-link-font-family: 'Fira Sans', sans-serif; /* Nav link font */
+    --navbar-link-font-size: 16px;                   /* Nav link font size */
+    --navbar-link-font-weight: 500;                    /* Nav link font weight */
+    --navbar-link-padding-y: 48px;                 /* Nav link vertical padding */
+    --navbar-link-padding-x: 0.75rem;                /* Nav link horizontal padding */
     --navbar-link-letter-spacing: 0.05em;               /* Nav link letter spacing */
 
     /* --- Hero Section --- */
-    --hero-overlay-opacity:     0.2;                    /* Overlay for contrast */
-    --hero-heading-font:        'Oxanium', sans-serif;  /* Hero font */
-    --hero-heading-size:        8rem;                   /* Hero font size */
-    --hero-heading-weight:      600;                    /* Hero font weight */
-    --hero-heading-color:       #ffffff;                /* Hero text colour */
-    --hero-subheading-font:     'Fira Sans', sans-serif; /* Hero caption font */
-    --hero-subheading-size:     1.5rem;                 /* Hero caption size */
-    --hero-subheading-weight:   400;                    /* Hero caption weight */
-    --hero-subheading-color:    #ffffff;                /* Hero caption colour */
-    --hero-subheading-opacity:  0.85;                   /* Hero caption opacity */
+    --hero-overlay-opacity: 0.2;                    /* Overlay for contrast */
+    --hero-heading-font: 'Oxanium', sans-serif;  /* Hero font */
+    --hero-heading-size: 8rem;                   /* Hero font size */
+    --hero-heading-weight: 600;                    /* Hero font weight */
+    --hero-heading-color: #ffffff;                /* Hero text colour */
+    --hero-subheading-font: 'Fira Sans', sans-serif; /* Hero caption font */
+    --hero-subheading-size: 1.5rem;                 /* Hero caption size */
+    --hero-subheading-weight: 400;                    /* Hero caption weight */
+    --hero-subheading-color: #ffffff;                /* Hero caption colour */
+    --hero-subheading-opacity: 0.85;                   /* Hero caption opacity */
 
     /* --- Divider line --- */
-    --hr-color:                 #ffffff;
-    --hr-thickness:             2px;
-    --hr-width:                 25%;
-    --hr-opacity:               0.5;
-    --hr-margin:                1rem auto;
+    --hr-color: #ffffff;
+    --hr-thickness: 2px;
+    --hr-width: 25%;
+    --hr-opacity: 0.5;
+    --hr-margin: 1rem auto;
 
     /* --- Cards --- */
-    --bs-card-bg:               #ffffff;  /* Card background */
-    --bs-card-border-color:     #dee2e6;  /* Card border colour */
-    --bs-card-border-radius:    0.375rem; /* Card corner radius */
-    --bs-card-cap-bg:           #f8f9fa;  /* Card header/footer background */
-    --bs-card-color:            #212529;  /* Card body text */
-    --card-box-shadow:          none;     /* Card shadow (e.g. 0 2px 8px rgba(0,0,0,0.1)) */
+    --bs-card-bg: #ffffff;  /* Card background */
+    --bs-card-border-color: #dee2e6;  /* Card border colour */
+    --bs-card-border-radius: 0.375rem; /* Card corner radius */
+    --bs-card-cap-bg: #f8f9fa;  /* Card header/footer background */
+    --bs-card-color: #212529;  /* Card body text */
+    --card-box-shadow: none;     /* Card shadow (e.g. 0 2px 8px rgba(0,0,0,0.1)) */
+    --card-body-gap: 1rem;     /* Vertical spacing between card elements */
+    --card-body-font-color: #7a7a7a;
 }
 
-/* --- Apply navbar variables --- */
-.navbar                         { background-color: var(--navbar-bg) !important; }
-.navbar .navbar-brand           { color: var(--navbar-brand-color) !important; }
-.navbar .navbar-nav             { gap: var(--navbar-ul-gap); }
+/* --- Applying navbar variables --- */
+.navbar{ background-color: var(--navbar-bg) !important; }
+.navbar .navbar-brand{ color: var(--navbar-brand-color) !important; }
+.navbar .navbar-nav{ gap: var(--navbar-ul-gap); }
 .navbar .nav-link {
-    color:          var(--navbar-link-color) !important;
-    font-family:    var(--navbar-link-font-family);
-    font-size:      var(--navbar-link-font-size);
-    font-weight:    var(--navbar-link-font-weight);
-    padding-top:    var(--navbar-link-padding-y);
-    padding-bottom: var(--navbar-link-padding-y);
-    padding-left:   var(--navbar-link-padding-x);
-    padding-right:  var(--navbar-link-padding-x);
-    letter-spacing: var(--navbar-link-letter-spacing);
+    color:var(--navbar-link-color) !important;
+    font-family:var(--navbar-link-font-family);
+    font-size:var(--navbar-link-font-size);
+    font-weight:var(--navbar-link-font-weight);
+    padding-top:var(--navbar-link-padding-y);
+    padding-bottom:var(--navbar-link-padding-y);
+    padding-left:var(--navbar-link-padding-x);
+    padding-right:var(--navbar-link-padding-x);
+    letter-spacing:var(--navbar-link-letter-spacing);
 }
-.navbar .nav-link:hover         { color: var(--navbar-link-hover-color) !important; }
+.navbar .nav-link:hover{ color: var(--navbar-link-hover-color) !important; }
 
-/* --- Apply button variables --- */
+/* --- Applying button variables --- */
 .btn-primary {
     background-color: var(--btn-primary-bg);
-    border-color:     var(--btn-primary-border);
-    color:            var(--btn-primary-color);
-    border-radius: var(--btn-border-radius);
-    font-family: var(--btn-primary-font-family);
-    font-size: var(--btn-font-size);
-    padding-top:    var(--btn-padding-y);
-    padding-bottom: var(--btn-padding-y);
-    padding-left:   var(--btn-padding-x);
-    padding-right:  var(--btn-padding-x);
-}
+    border-color:var(--btn-primary-border);
+    color:var(--btn-primary-color);
+    border-radius:var(--btn-border-radius);
+    font-family:var(--btn-primary-font-family);
+    font-size:var(--btn-font-size);
+    padding-top:var(--btn-padding-y);
+    padding-bottom:var(--btn-padding-y);
+    padding-left:var(--btn-padding-x);
+    padding-right:var(--btn-padding-x);}
 .btn-primary:hover {
-    background-color: var(--btn-primary-hover-bg);
-    border-color:     var(--btn-primary-hover-bg);
-    color:            var(--btn-primary-color);
-}
+    background-color:var(--btn-primary-hover-bg);
+    border-color:var(--btn-primary-hover-bg);
+    color:var(--btn-primary-color);}
 .btn-secondary {
-    background-color: var(--btn-secondary-bg);
-    border-color:     var(--btn-secondary-border);
-    color:            var(--btn-secondary-color);
-}
+    background-color:var(--btn-secondary-bg);
+    border-color:var(--btn-secondary-border);
+    color:var(--btn-secondary-color);}
 .btn-secondary:hover {
     background-color: var(--btn-secondary-hover-bg);
     border-color:     var(--btn-secondary-hover-bg);
-    color:            var(--btn-secondary-color);
+    color:            var(--btn-secondary-color);}
+
+/*Applying Text Variables*/
+/*Hero text styling*/
+.hero-heading {
+    font-family: var(--hero-heading-font);
+    font-size: var(--hero-heading-size);
+    font-weight: var(--hero-heading-weight);
+    color: var(--hero-heading-color);}
+.hero-subheading {
+    font-family: var(--hero-subheading-font);
+    font-size: var(--hero-subheading-size);
+    font-weight: var(--hero-subheading-weight);
+    opacity: var(--hero-subheading-opacity);
+    color: var(--hero-subheading-color);}
+/*Divider styling*/
+hr {
+    border: none;
+    border-top: var(--hr-thickness) solid var(--hr-color);
+    width: var(--hr-width);
+    margin: var(--hr-margin);
+    opacity: var(--hr-opacity);}
+/*Card link styling*/
+.card a {
+    color:           var(--card-link-color);
+    font-weight:     var(--card-link-font-weight);
+    text-decoration: var(--card-link-text-decoration);}
+.card a:hover {
+    color: var(--card-link-hover-color);}
+
+/* --- Navbar spacer (for non-hero pages) --- */
+.navbar-spacer {
+    height: calc(var(--navbar-height) + 32px);
 }
 
-
+/* --- Element Styling --- */
 .navbar {
     position: absolute;
     top: 0;
@@ -129,13 +166,13 @@
     background: linear-gradient(180deg, var(--navbar-gradient-start) 0%, var(--navbar-gradient-end) 100%);
 }
 
+/*Hero video placement under navbar*/
 .hero {
     position: relative;
     min-height: 100vh;
     overflow: hidden;
     color: #ffffff;
 }
-
 .hero-video {
     position: absolute;
     top: 50%;
@@ -146,38 +183,101 @@
     object-fit: cover;
     z-index: 0;
 }
-
 .hero-overlay {
     position: absolute;
     inset: 0;
     background-color: rgba(0, 0, 0, var(--hero-overlay-opacity));
     z-index: 1;
 }
-
 .hero-content {
     position: relative;
     z-index: 2;
 }
 
-.hero-heading {
-    font-family: var(--hero-heading-font);
-    font-size: var(--hero-heading-size);
-    font-weight: var(--hero-heading-weight);
-    color: var(--hero-heading-color);
+/* --- Card body layout --- */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    gap: var(--card-body-gap);
+}
+.card-body p{
+    color: gray;
+}
+.card-body c{
+    font-weight: 500;
 }
 
-.hero-subheading {
-    font-family: var(--hero-subheading-font);
-    font-size: var(--hero-subheading-size);
-    font-weight: var(--hero-subheading-weight);
-    opacity: var(--hero-subheading-opacity);
-    color: var(--hero-subheading-color);
+h1{
+    font-family: Oxanium, sans-serif;
+    font-weight: 600;
+    font-size: 45px;
 }
 
-hr {
+/* --- Sponsor Grid --- */
+.grid-7 {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1.5rem;
+}
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+}
+.grid-item img {
+    width: 100%;
+    height: 90px;
+    object-fit: cover;
+}
+
+.sponsor-container {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.page-separator{
+    width: 100%;
+    height: 8px;
+    color: white;
+}
+
+.search-container {
+    position: relative;
+}
+
+.search-input {
+    height: 50px;
+    border-radius: 0px;
+    padding-left: 16px;
     border: none;
-    border-top: var(--hr-thickness) solid var(--hr-color);
-    width: var(--hr-width);
-    margin: var(--hr-margin);
-    opacity: var(--hr-opacity);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: var(--bs-secondary-bg);
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: #888;
+}
+
+footer{
+    background-color: var(--navbar-footer-bg);
+}
+
+.footer-heading{
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+p.card-text{
+    font-size: 20px;
+    font-family: Fira Sans, sans-serif;
+    font-weight: 300;
+    color: var(--card-body-font-color);
 }
