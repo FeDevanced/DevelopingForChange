@@ -29,32 +29,64 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav mx-auto justify-content-center">
-        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link active" href="careers-and-media.html">Contact</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<!-- Navbar spacer -->
-<div class="navbar-spacer"></div>
-
-<!-- Main Content -->
-<main class="container my-5">
-    <div class="row">
-        <div class="col-12">
-          <img src="media/vf26.jpg" class="img-fluid" alt="Responsive image" style="display: block; margin: 0 auto; max-height: 600px">
-          <div class="navbar-spacer"></div>
-          <h1 class="text-left mb-5">Our 2026 Challenger: VF-26</h1>
-          <p class="text-left mb-5">
-
-          </p>
-
-            <!-- Add your content here -->
-
-        </div>
+<!-- Hero Section -->
+<section class="hero hero-half d-flex align-items-center justify-content-center">
+    <img class="hero-img" src="media/careers-background.jpg" alt="">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
     </div>
+</section>
+<main class="container my-5">
+  <div class="header-container" style="margin-bottom: 16px;">
+    <h1>Careers & Media</h1>
+  </div>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17789.78615226754!2d-80.67555072021015!3d35.43969462397887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8854044ca8c25515%3A0x829b746d682c4819!2sHaas%20Way%2C%20Kannapolis%2C%20NC%2028027%2C%20USA!5e0!3m2!1sen!2suk!4v1771509406032!5m2!1sen!2suk" width="100%" height="300" style="border:0; margin-bottom:16px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <p>
+    <h2>TGR Haas F1 Team</h2><br><br>
+  <h5>Address (USA)</h5><br>
+  4001 Haas Way, Kannapolis, NC 28081<br><br>
+
+  <h5>Address (UK)</h5><br>
+  Haas Racing, Overthorpe Road, Banbury, OX16 4PN<br><br>
+
+  <h5>Media Email</h5><br>
+  office@example.com<br><br>
+  </p>
+<div class="navbar-spacer"></div>
+  <h2>Media Enquiries</h2>
+
+  <form class="enquiry-form mt-4">
+    <div class="mb-3">
+      <label for="firstName" class="form-label">First Name</label>
+      <input type="text" class="form-control enquiry-input" id="firstName" placeholder="Enter your first name">
+    </div>
+    <div class="mb-3">
+      <label for="lastName" class="form-label">Last Name</label>
+      <input type="text" class="form-control enquiry-input" id="lastName" placeholder="Enter your last name">
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control enquiry-input" id="email" placeholder="Enter your email address">
+    </div>
+    <div class="mb-3">
+      <label for="subject" class="form-label">Subject</label>
+      <input type="text" class="form-control enquiry-input" id="subject" placeholder="Enter the subject of your enquiry">
+    </div>
+    <div class="mb-3">
+      <label for="message" class="form-label">Message</label>
+      <textarea class="form-control enquiry-input" id="message" rows="6" placeholder="Enter your message"></textarea>
+    </div>
+    <button type="submit" class="btn enquiry-submit">Submit</button>
+  </form>
+
 </main>
 
 <!-- Footer -->
