@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78077432-ae86-4c17-b52b-54148273d25b" name="Changes" comment="added base files">
-      <change afterPath="$PROJECT_DIR$/esteban-ocon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jack-doohan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog-background.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/careers-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oliver-bearman.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/andrea-de-zordo.html" beforeDir="false" afterPath="$PROJECT_DIR$/andrea-de-zordo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ayao-komatsu.html" beforeDir="false" afterPath="$PROJECT_DIR$/ayao-komatsu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/careers-and-media.html" beforeDir="false" afterPath="$PROJECT_DIR$/careers-and-media.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vf-26.html" beforeDir="false" afterPath="$PROJECT_DIR$/vf-26.html" afterDir="false" />
-    </list>
+    <list default="true" id="78077432-ae86-4c17-b52b-54148273d25b" name="Changes" comment="added base files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +91,7 @@
       <workItem from="1771598995318" duration="75000" />
       <workItem from="1771599117542" duration="762000" />
       <workItem from="1772108967702" duration="18026000" />
-      <workItem from="1772546195519" duration="18533000" />
+      <workItem from="1772546195519" duration="21572000" />
     </task>
     <task id="LOCAL-00001" summary="added base files">
       <option name="closed" value="true" />
