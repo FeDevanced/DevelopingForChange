@@ -30,9 +30,7 @@
         color: white;}
 
 /* ========== */
-
-        /*==============================*/
-
+/*==============================*/
 /* === Navbar === */
 
     .navbar {
@@ -43,24 +41,25 @@
         z-index: 10;
         background-color: transparent !important;
         background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);}
-    .navbar .navbar-brand{ color: #ffffff !important; }
-    .navbar .navbar-nav{ gap: 16px; }
+    .navbar .navbar-brand{
+        color: #ffffff !important; }
+    .navbar .navbar-nav{
+        gap: 16px; }
     .navbar .nav-link {
         color: #ffffff !important;
         font-size: 16px;
         font-weight: 500;
         padding: 48px 0.75rem;
         letter-spacing: 0.05rem;}
-    .navbar .nav-link:hover{ color: #df0000 !important; }
+    .navbar .nav-link:hover{
+        color: #df0000 !important; }
 
     /* - Navbar spacing - */
     .navbar-spacer {
         height: calc(80px + 32px);}
 
 /* ========== */
-
-        /*==============================*/
-
+/*==============================*/
 /* === Buttons === */
 
     /* - Primary Button -*/
@@ -87,9 +86,7 @@
         color:            #ffffff;}
 
 /* ========== */
-
-        /*==============================*/
-
+/*==============================*/
 /* === Hero Section === */
 
     /* - Sizing & Positioning - */
@@ -117,7 +114,6 @@
         transform: translate(-50%, -50%);
         object-fit: cover;
         z-index: 0;}
-
     .hero-half {
         min-height: 50vh;}
 
@@ -135,9 +131,7 @@
         color: #ffffff;}
 
 /* ========== */
-
-        /*==============================*/
-
+/*==============================*/
 /* === Divider styling === */
 
     hr {
@@ -151,9 +145,7 @@
     }
 
 /* ========== */
-
-        /*==============================*/
-
+/*==============================*/
 /* === Card Styling === */
 
     /* - Layout & Background - */
@@ -187,9 +179,7 @@
         color: #7a7a7a;}
 
 /* ========== */
-
-        /*==============================*/
-
+/*==============================*/
 /* === Sponsor Grid === */
 .grid-7 {
     display: grid;
@@ -212,9 +202,7 @@
     margin-bottom: 64px;}
 
 /* ========== */
-
-        /*==============================*/
-
+/*==============================*/
 /* === Enquiry Form === */
 
     .enquiry-input {
@@ -240,7 +228,6 @@
         font-size: 18px;
         padding: 16px 24px;
         width: fit-content;}
-
     .enquiry-submit:hover {
         background-color: #a80000;
         border-color: #a80000;
@@ -252,9 +239,7 @@
     }
 
 /* ========== */
-
-        /*==============================*/
-
+/*==============================*/
 /* === Footer === */
 
     footer{
